@@ -21,8 +21,31 @@ body {
 
 .button{
     background-color: white;
-    height: 30px;
-    width: 60px;
+    height: 35px;
+    width: 74px;
+    border-radius: 33px;
+    border: none;
+}
+
+.button2{
+    background-color: black;
+    height: 35px;
+    width: 74px;
+    border-radius: 33px;
+    border: none;
+}
+
+h1{
+    font-size: 3em;
+    
+}
+
+p{
+    font-size: 1.15em;
+}
+
+.flex{
+    display: flex;
 }
 
 
@@ -95,7 +118,7 @@ MAIN
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 .first-section{
@@ -109,12 +132,39 @@ MAIN
 
 
 .first-box-section-1{
-    background-color: #EE82EE;
     border: dashed 1px black;
     height: 380px;
     width: 800px;
+    text-align: center;
+    color: white;
+    padding: 0 60px;
+    padding-top: 70px;
+    
 }
 
+.first-box-section-1 h1{
+    padding-bottom: 30px;
+}
+
+.first-box-section-1 .flex .button{
+    height: 35px;
+    width: 170px;
+    border-radius: 33px;
+}
+
+.first-box-section-1 .flex .button2{
+    color: white;
+    height: 35px;
+    width: 210px;
+    border-radius: 33px;
+}
+
+.first-box-section-1 .flex{
+    justify-content: center;
+    align-items: center;
+    
+    
+}
 
 
 /*section 2e4*/
