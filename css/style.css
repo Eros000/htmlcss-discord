@@ -25,6 +25,7 @@ body {
     width: 74px;
     border-radius: 33px;
     border: none;
+    margin-right: 25px;
 }
 
 .button2{
@@ -42,10 +43,6 @@ h1{
 
 p{
     font-size: 1.15em;
-}
-
-.flex{
-    display: flex;
 }
 
 
@@ -132,7 +129,6 @@ MAIN
 
 
 .first-box-section-1{
-    border: dashed 1px black;
     height: 380px;
     width: 800px;
     text-align: center;
@@ -146,22 +142,24 @@ MAIN
     padding-bottom: 30px;
 }
 
-.first-box-section-1 .flex .button{
+.first-box-section-1 .buttons-sec-1 .button{
     height: 35px;
     width: 170px;
     border-radius: 33px;
 }
 
-.first-box-section-1 .flex .button2{
+.first-box-section-1 .buttons-sec-1 .button2{
     color: white;
     height: 35px;
     width: 210px;
     border-radius: 33px;
 }
 
-.first-box-section-1 .flex{
+.buttons-sec-1{
+    display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 25px;
     
     
 }
@@ -180,17 +178,28 @@ MAIN
 }
 
 .first-box-section-2{
-    background-color: #1E90FF;
-    border: dashed 1px black;
     height: 380px;
     width: 40%;
+    padding-left: 10px;
 }
 
 .second-box-section-2{
-    background-color: #FFC0CB;
-    border: dashed 1px black;
     height: 380px;
     width: 60%;
+    padding: 0 182px;
+}
+
+.first-box-section-2 img{
+    height: 390px;
+    width: 160%;
+}
+
+.second-box-section-2 h1{
+    padding-bottom: 15px;
+}
+
+.second-box-section-2 p{
+    line-height: 25px;
 }
 
 
