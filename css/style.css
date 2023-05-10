@@ -11,7 +11,7 @@
     GENERAL
 */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .container {
@@ -19,32 +19,70 @@ body {
     margin: 0 auto;
 }
 
+.button{
+    background-color: white;
+    height: 30px;
+    width: 60px;
+}
+
 
 /*
 HEADER
 */
 header{
+    background-color: #3161E0;
     padding: 20px 0;
 }
 
 .header-flex-container{
-    display: flex;    
-    background-color: #D5A11F;    
+    display: flex;        
 }
 
 .header-col-small{
     height: 40px;
     width: calc(100% / 4);
-    border: dashed black 1px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header-col-small2{
+    height: 40px;
+    width: calc(100% / 4);
+    display: flex;
+    justify-content: flex-end;
     
 }
 
 .header-col-big{
     height: 40px;
     width: calc(100% / 2);
-    border: dashed black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
+
+.header-col-big nav ul li{
+    display: inline-block;
+}
+
+.header-col-big nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 23px;
+}
+
+.header-col-small2 .button{
+    background-color: white;
+    height: 35px;
+    width: 74px;
+    border-radius: 33px;
+    border: none;
+}
+
+
+
 
 /*
 MAIN
@@ -61,9 +99,14 @@ MAIN
 }
 
 .first-section{
-    background-color: #00008B;
     height: 500px;
-    }
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
 
 .first-box-section-1{
     background-color: #EE82EE;
@@ -240,9 +283,3 @@ FOOTER
 
 }
 
-/*
-DEBUG
-*/
-.debug-header{
-    background-color: #ADD8E6;
-}
