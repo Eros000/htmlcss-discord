@@ -218,16 +218,27 @@ MAIN
 }
 
 .first-box-section-3{
-    background-color: #FFC0CB;
-    border: dashed 1px black;
     height: 380px;
     width: 40%;
+    padding: 0 71px;
+    padding-top: 15px;
 }
 .second-box-section-3{
-    background-color: #1E90FF;
-    border: dashed 1px black;
     height: 380px;
     width: 60%;
+}
+
+.first-box-section-3 h1{
+    padding-bottom: 15px;
+}
+
+.first-box-section-3 p{
+    line-height: 25px;
+}
+
+.second-box-section-3 img{
+    height: 390px;
+    width: 100%;
 }
 
 
@@ -241,7 +252,7 @@ MAIN
 
 .fifth-section{
     background-color: #D3D3D3;
-    height: 860px;
+    height: 1200px;
 }
 
 .flex-container-sec-5{
@@ -253,13 +264,49 @@ MAIN
 
 
 .first-box-section-5{
-    background-color: #228B22;
-    border: dashed 1px black;
-    height: 760px;
+    height: 1100px;
     width: 100%;
     
 }
 
+.text-section-5{
+    text-align: center;
+    padding: 0 111px;
+    padding-top: 30px
+}
+
+.text-section-5 h1{
+    padding-bottom: 10px;
+}
+
+.first-box-section-5 img{
+    margin: 0 56px;
+    width: 1115px;
+    height: 677px;
+}
+
+.button-section-5{
+    color: white;
+    background-color: #516FC5;
+    height: 35px;
+    width: 170px;
+    border-radius: 33px;
+    border: none;
+    margin-right: 25px;
+}
+
+.last-box-section-5{
+    text-align: center;
+}
+
+.last-box-section-5 h2{
+    padding-bottom: 20px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 
 /*
 FOOTER
@@ -310,6 +357,8 @@ FOOTER
 
 
 
+
+
 /*SMALL*/
 
 .footer-small{
@@ -323,7 +372,6 @@ FOOTER
 }
 
 .row-footer-small{
-    background-color: #7FFFD4;
     height: 80px;
     width: 100%;
 }
@@ -334,11 +382,13 @@ FOOTER
     align-items: center;
 }
 
-.columns-footer-small{
-    background-color: #f08080;
-    height: 30px;
-    width: 60px;
-    border: dashed 1px black;
-
+.button-footer{
+    color: white;
+    background-color: #3161E0;
+    height: 35px;
+    width: 74px;
+    border-radius: 33px;
+    border: none;
 }
+
 
